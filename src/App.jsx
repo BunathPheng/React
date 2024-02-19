@@ -19,6 +19,7 @@ const App = () => {
   }
   return (
     <div>
+      
       {alter ? <Message />:null}
       <button onClick={handerler}>Togole</button>
     </div>
